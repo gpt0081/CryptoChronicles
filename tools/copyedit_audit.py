@@ -74,8 +74,10 @@ def audit_file(path: Path) -> tuple[list[str], list[str]]:
                     without_character = line.replace("Stablecoins", "")
                     if not pattern.search(without_character):
                         continue
-                # Official proper name: Solana Mainnet Beta.
+                # Official proper names remain in English.
                 if code == "english-mainnet" and "Mainnet Beta" in line:
+                    continue
+                if code == "english-offchain" and "Off-Chain Reporting" in line:
                     continue
                 soft.append(f"{rel}:{lineno} [{code}] {line.strip()} -> {suggestion}")
 
