@@ -23,13 +23,17 @@
 금융위기, Bitcoin 백서, Genesis Block, 초기 채굴자, Pizza Day, 초기 거래소, Silk Road, 최초의 거품과 규제의 시선.
 
 ### 제2부 — The Programmable City (2014~2017)
-Mt. Gox의 붕괴, Ethereum의 등장, The DAO, Ethereum/ETC 분열, 블록사이즈 전쟁과 Bitcoin Cash, ICO 광풍.
+Mt. Gox의 붕괴, Ethereum의 등장, The DAO, Ethereum/ETC 분열, 블록 크기 전쟁과 Bitcoin Cash, ICO 광풍.
 
 ### 제3부 — The Age of Leverage (2018~2022)
 Crypto Winter, 스테이블코인의 성장, DeFi Summer, NFT와 L1 경쟁, Terra-Luna, 3AC, Celsius, FTX, Ethereum Merge.
 
-### 제4부 — The Return of Empire (2023~현재)
-규제 재편, 현물 ETF, 기관 자금, 스테이블코인 법제화 논의, RWA, L2와 새로운 L1, 탈중앙화 이상과 제도권의 공존.
+### 제4부 — The Return of Empire (2023~2026-08-21)
+규제 재편, 현물 ETF, 기관 자금, 스테이블코인 법제, RWA, L2와 새로운 L1, 탈중앙화 이상과 제도권의 공존.
+
+## 편집 기준
+
+최종 원고의 영문·한글 용어, 숫자, 날짜, 고유명사 표기는 [`COPYEDIT_STYLE.md`](./COPYEDIT_STYLE.md)를 정본으로 사용한다.
 
 ## 금지
 
