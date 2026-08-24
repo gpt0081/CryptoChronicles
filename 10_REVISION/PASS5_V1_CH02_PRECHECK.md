@@ -16,22 +16,22 @@ These anchors in CH02 are consistent with the historical record.
 
 - Severity: **MINOR**
 - Type: historical characterization / scope
-- Status: **OPEN — wording correction recommended**
+- Status: **RESOLVED**
 - Location: early mailing-list scene, immediately after the new-mail notification
 
-Current prose moves from recipients who like cryptography, distrust centralized identity/intermediation, and pursue electronic cash to:
+The prior prose moved from recipients who like cryptography, distrust centralized identity/intermediation, and pursue electronic cash to the categorical sentence:
 
 > `세상은 그들을 한꺼번에 묶어 사이퍼펑크라고 부르곤 했다.`
 
 The actual venue was the broader Cryptography Mailing List. Some participants were cypherpunks or closely connected to cypherpunk ideas, but the historical evidence does not justify labeling the entire recipient/readership group as cypherpunks.
 
-### Recommended minimal correction
+### Applied correction
 
-Preserve the scene and skepticism while narrowing the claim. For example, replace the categorical sentence with language equivalent to:
+The categorical sentence was replaced with:
 
-`그들 중에는 사이퍼펑크 문화 속에서 오래 전자화폐를 고민해 온 사람들도 있었다.`
+> `그들 중에는 사이퍼펑크 문화 속에서 오래 전자화폐를 고민해 온 사람들도 있었다.`
 
-Do not insert explanatory history into the novel prose. The correction should remain one sentence and keep the scene moving.
+This narrows the historical claim without inserting research/explanatory prose into the scene.
 
 ## Narrative check
 
@@ -39,6 +39,7 @@ No other CH02 issue found in this pass rises to MAJOR/CRITICAL. The anonymous Lo
 
 ## Completion impact
 
+- V1-CH02-PRE-001 is resolved in manuscript.
 - CH02 remains `pending` in Pass 5 because the required independent `character` and `blind-reader` reports have not arrived.
-- This precheck records one narrow historical-scope correction for the next safe manuscript edit.
+- This internal precheck does not count as either independent required role.
 - Publication-ready status remains blocked by the 48-chapter independent Pass 5 queue.
