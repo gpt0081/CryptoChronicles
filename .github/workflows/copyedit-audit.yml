@@ -1,0 +1,26 @@
+name: Copyedit Audit
+
+on:
+  pull_request:
+    paths:
+      - '04_VOLUME_1/**'
+      - '05_VOLUME_2/**'
+      - '06_VOLUME_3/**'
+      - '07_VOLUME_4/**'
+      - '00_MASTER/COPYEDIT_STYLE.md'
+      - 'tools/copyedit_audit.py'
+      - '.github/workflows/copyedit-audit.yml'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit manuscript copyedit conventions
+        run: python tools/copyedit_audit.py
