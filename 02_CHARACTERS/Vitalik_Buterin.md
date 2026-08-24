@@ -21,4 +21,4 @@ Vitalik은 Ethereum의 초기 아이디어와 공개를 인간 역사에 고정�
 
 ## 관련 정본
 - `09_RESEARCH/V2_FACT_LEDGER.md`: V2-F003, V2-F004
-- `05_VOLUME_2/CH02_새로운_도시의_설계도.md`
+- `05_VOLUME_2/CH02_어린_설계자.md`
