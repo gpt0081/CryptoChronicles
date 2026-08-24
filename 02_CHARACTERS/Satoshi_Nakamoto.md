@@ -23,7 +23,7 @@ Satoshi는 장기간 등장하는 인격 캐릭터라기보다, 공개 기록을
 
 ## 관련 정본
 - `09_RESEARCH/FACT_LEDGER.md`: F-0001, F-0002, F-0011, F-0022
-- `04_VOLUME_1/CH02_백서가_도착하다.md`
-- `04_VOLUME_1/CH03_첫_블록.md`
-- `04_VOLUME_1/CH04_네트워크가_깨어나다.md`
-- `04_VOLUME_1/CH05_두_사람의_거래.md`
+- `04_VOLUME_1/CH02_정체불명의_문서.md`
+- `04_VOLUME_1/CH03_제네시스_블록.md`
+- `04_VOLUME_1/CH04_아무도_믿지_않는_화폐.md`
+- `04_VOLUME_1/CH05_첫_번째_동료들.md`
