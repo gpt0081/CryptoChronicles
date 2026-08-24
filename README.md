@@ -4,15 +4,17 @@
 
 ## 현재 상태
 
-**4부 48장 전체 초고 완료.**
+**4부 48장 전체 원고 완료. Pass 1~4 완료 및 main 병합. Pass 5 내용 검수 진행 단계.**
 
 - 제1부 `Genesis` — 12/12장 완료·검증
 - 제2부 `The Programmable City` — 12/12장 완료·검증
 - 제3부 `The Age of Leverage` — 12/12장 완료·검증
 - 제4부 `The Return of Empire` — 12/12장 완료·검증
 - 본문 역사 기준일: **2026-08-21**
+- 최종 Copyedit Audit: **48장 / Hard issue 0 / Soft warning 0**
+- Pass 5 독립 내용 검수 인프라: `11_REVIEW/`에 병합 완료
 
-현재 상태는 **전체 초고(draft complete)**다. 이후 문학적 퇴고, 장별 길이 균형, 반복 표현 제거, 대사·장면 밀도 조정, 전권 통합 continuity audit를 거쳐 출판 원고 수준으로 다듬는다.
+현재 상태는 **publication candidate 이전의 narrative review 단계**다. 표면 교정과 전권 copyedit은 완료했지만, 역사·연속성·캐릭터·소설성·초독자·Red Team 관점의 Pass 5 검수가 아직 남아 있으므로 publication-ready로 선언하지 않는다.
 
 ## 핵심 원칙
 
@@ -22,6 +24,8 @@
 - 가격은 서사의 주인공이 아니라 사건의 결과로 다룬다.
 - `00_MASTER/`와 `08_CONTINUITY/`를 작품의 정본(canon)으로 본다.
 - 최신 시기를 다루는 제4부는 법률·행정명령·최종규칙·제안규칙·계류 법안을 구분한다.
+- 외부 검수자는 원고를 직접 수정하지 않고 `11_REVIEW/`에 finding만 제출한다.
+- 실제 본문 수정은 검수 finding의 채택·기각 판단 뒤에만 수행한다.
 
 ## 4부작 구성
 
@@ -32,7 +36,7 @@
 
 ## 집필·검증 순서
 
-`역사 조사 → Fact Ledger → 장면 설계 → 초고 → 캐릭터 검사 → 연속성 검사 → 사실 검증 → 정본 반영`
+`역사 조사 → Fact Ledger → 장면 설계 → 초고 → 캐릭터 검사 → 연속성 검사 → 사실 검증 → 정본 반영 → Copyedit Audit → 독립 Narrative Review → 최종 회귀검수`
 
 ## 주요 디렉터리
 
@@ -43,12 +47,15 @@
 - `04_VOLUME_1/` ~ `07_VOLUME_4/` — 48장 본문
 - `08_CONTINUITY/` — 인물 상태, 관계, 사건·떡밥 추적
 - `09_RESEARCH/` — Fact Ledger, Fact Check, 권별 조사자료
+- `10_REVISION/` — Pass별 퇴고 규칙·보고서·트래커
+- `11_REVIEW/` — Pass 5 독립 검수 큐·역할별 inbox·판정·회귀검수 기록
 
-## 다음 편집 단계
+## 남은 완료 조건
 
-1. 48장 전체 continuity audit
-2. 사실 중복·설명문 과다 구간 제거
-3. 인물별 말투와 성장곡선 통일
-4. 각 권의 장 길이·긴장도 균형 조정
-5. 실제 인물·조직 관련 표현의 법적/사실적 최종 점검
-6. 통합 원고 및 전자책/PDF용 편집본 제작
+1. `11_REVIEW/QUEUE.md`의 48장 Pass 5 검수 완료
+2. 역사·연속성·캐릭터·소설성·초독자·Red Team finding 판정 및 필요한 수정 반영
+3. 수정 장의 앞뒤 장 회귀검수 완료
+4. Fact Ledger·continuity ledger와 최종 본문 대조
+5. 핵심 캐릭터 dossier·portrait 링크 최종 일치 확인
+6. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
+7. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
