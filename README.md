@@ -13,6 +13,7 @@
 - 본문 역사 기준일: **2026-08-21**
 - 최종 Copyedit Audit: **48장 / Hard issue 0 / Soft warning 0**
 - Pass 5 독립 내용 검수 인프라: `11_REVIEW/`에 병합 완료
+- Fact Ledger 전권 커버리지 재대조: **완료** (`10_REVISION/PASS5_FACT_LEDGER_AUDIT.md`)
 
 현재 상태는 **publication candidate 이전의 narrative review 단계**다. 표면 교정과 전권 copyedit은 완료했지만, 역사·연속성·캐릭터·소설성·초독자·Red Team 관점의 Pass 5 검수가 아직 남아 있으므로 publication-ready로 선언하지 않는다.
 
@@ -55,7 +56,6 @@
 1. `11_REVIEW/QUEUE.md`의 48장 Pass 5 검수 완료
 2. 역사·연속성·캐릭터·소설성·초독자·Red Team finding 판정 및 필요한 수정 반영
 3. 수정 장의 앞뒤 장 회귀검수 완료
-4. Fact Ledger·continuity ledger와 최종 본문 대조
-5. 핵심 캐릭터 dossier·portrait 링크 최종 일치 확인
-6. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
-7. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
+4. 핵심 캐릭터 dossier·portrait 링크 최종 일치 확인
+5. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
+6. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
