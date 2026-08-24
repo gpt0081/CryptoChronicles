@@ -18,6 +18,16 @@
 | Solana | 고속 신도시의 건축가 | 빠르고 야심차며 규모에 집착하는 젊은 도전자 | [Solana](./Solana.md) |
 | Chainlink | 외부 세계를 전하는 오라클 | 말수는 적지만 모든 계약이 필요로 하는 정보 중개자 | [Chainlink](./Chainlink.md) |
 
+## 실제 인간 핵심 카드
+
+실존 인물은 의인화 프로토콜과 분리한다. 공개 기록으로 확인되지 않은 외모·심리·사적 대사는 정본 사실로 만들지 않는다.
+
+| 인물 | 역사적 기능 | 관련 파일 |
+|---|---|---|
+| Satoshi Nakamoto | Bitcoin 백서·초기 소프트웨어 공개 | [Satoshi Nakamoto](./Satoshi_Nakamoto.md) |
+| Hal Finney | 초기 Bitcoin 실행·시험 전송의 공개 기록 | [Hal Finney](./Hal_Finney.md) |
+| Vitalik Buterin | Ethereum 초기 백서·프로젝트 공개 | [Vitalik Buterin](./Vitalik_Buterin.md) |
+
 ## 초상화 갤러리
 
 ### Bitcoin
@@ -38,6 +48,13 @@
 ### Chainlink
 ![Chainlink Portrait](./portraits/chainlink.jpg)
 
+### 초상화 범위 규칙
+- 현재 갤러리의 6개 이미지는 프로토콜·자산을 의인화한 소설용 캐릭터 아트다.
+- Satoshi Nakamoto는 신원·외모가 확인되지 않았으므로 정본 초상화를 만들지 않는다.
+- Hal Finney, Vitalik Buterin 등 실존 인물은 실제 외모를 합성 캐릭터 아트로 대체하지 않는다.
+- `신용`, `가격`, `국가`, `Institutions`, `Exchanges`처럼 복합·추상 역할은 개별 실존 인물의 얼굴로 시각적으로 고정하지 않는다.
+- 따라서 위 항목들의 초상화 부재는 누락이 아니라 의도적 정본 정책이다.
+
 ## 복합 등장인물 사용 규칙
 - **Exchanges**: 여러 중앙화 거래소의 반복되는 기능을 의인화한다. 사건 장면에서는 Mt. Gox, Binance, FTX 등 실제 조직의 사실관계를 분리한다.
 - **Institutions**: 은행·자산운용사·수탁사·브로커 등 위임된 자본의 군중이다. 정부·법원·규제기관의 강제력은 `국가`와 분리한다.
@@ -47,9 +64,10 @@
 ## 집필용 기준표
 캐릭터별 대사 충돌과 반복 모티프의 담당은 [`PASS2_CHARACTER_MATRIX`](../10_REVISION/PASS2_CHARACTER_MATRIX.md)를 정본으로 사용한다.
 
-## 향후 추가 대상
-- Satoshi Nakamoto, Hal Finney, Vitalik Buterin 등 실제 인간 등장인물의 별도 카드. 실제 발언은 원출처 확보 시에만 직접 인용.
+## 추가 세부 카드 후보
 - Mt. Gox, The DAO, Tether, Circle, Ripple, Binance, FTX, Terra/Luna 등 조직·프로토콜 카드.
 - Bitcoin Cash, Ethereum Classic, USDT, USDC, TerraUSD 등 분기·파생 인물 카드.
+
+이 후보들은 장별 사실·연속성 검수에서 독립 dossier가 필요하다고 판정될 때 추가한다. 현재의 publication-ready 완료 조건에서 자동 필수 항목으로 간주하지 않는다.
 
 > 초상화는 실제 창립자의 외모를 재현한 것이 아니라, 각 프로토콜/자산의 성격을 의인화한 소설용 캐릭터 아트다.
