@@ -8,6 +8,7 @@
 - role: historian | continuity | character | novel-editor | blind-reader | red-team
 - target: 원고 파일 경로
 - manuscript_commit: 검수 기준 커밋 SHA
+- manuscript_blob_sha: 검수한 대상 원고 파일의 blob SHA
 - reviewer_model: 사용 모델 또는 도구 이름
 - reviewed_at: YYYY-MM-DD
 - scope: 검수 범위
@@ -49,6 +50,12 @@
 - result: NO_FINDINGS
 - checked: 실제로 확인한 범위
 - residual_risk: 검수하지 못했거나 확신이 낮은 부분
+
+## 유효성 규칙
+
+- `manuscript_commit`은 `11_REVIEW/BASELINE.md`의 active baseline 이상이어야 한다.
+- `manuscript_blob_sha`는 실제 검수한 원고 파일 blob SHA와 일치해야 한다.
+- 원고 수정으로 blob SHA가 바뀌면 기존 보고서는 stale이며, 해당 역할 검수를 다시 수행해야 한다.
 
 ## 금지 사항
 
