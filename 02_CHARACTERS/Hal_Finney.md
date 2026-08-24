@@ -20,4 +20,4 @@ Hal은 Bitcoin이 단독 설계자의 산출물에서 타인에게 전달되고 
 
 ## 관련 정본
 - `09_RESEARCH/FACT_LEDGER.md`: F-0022, F-0023
-- `04_VOLUME_1/CH05_두_사람의_거래.md`
+- `04_VOLUME_1/CH05_첫_번째_동료들.md`
