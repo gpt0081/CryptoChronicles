@@ -16,8 +16,9 @@
 - severity: MAJOR
 - location: 마지막 장면, `그때 비트코인은 아직 존재하지 않았다`부터 `아직 아무 문장도 쓰이지 않았다`까지
 - category: chronology / fact
-- status: OPEN
+- status: RESOLVED
 - confidence: high
+- resolution_commit: `dda3ac31a0f7fbd053f1c72b29106c3e57f7a952`
 
 **문제**
 
@@ -33,6 +34,14 @@
 
 Bitcoin이 아직 `공개되지 않았다`는 사실만 남기고, 이름의 존재 여부나 백서 문장이 쓰였는지 여부는 단정하지 않는다. 마지막 컴퓨터 장면의 긴장과 예고 기능은 유지한다.
 
+**해결 확인**
+
+- `존재하지 않았다`/`이름도 없었다`를 공개 전 상태를 나타내는 표현으로 낮췄다.
+- 비공개 집필 상태를 단정하던 컴퓨터·빈 화면 장면을 제거했다.
+- 리먼 파산 자체를 Bitcoin 탄생의 직접 원인처럼 연결하던 `리먼이 떠난 자리` 문구를 제거했다.
+- V1 CH02의 2008-10-31 백서 공개 장면과 연결이 자연스럽고 사건 순서 충돌이 없다.
+- Copyedit Audit run #17: 48 chapters, hard issues 0, soft warnings 0.
+
 **연관 항목**
 
 - `01_HISTORY/2008-2012.md`: 금융위기와 Bitcoin 탄생을 직접 인과로 단정할 수 있는 범위를 조사 대상으로 명시.
@@ -42,7 +51,7 @@ Bitcoin이 아직 `공개되지 않았다`는 사실만 남기고, 이름의 존
 
 - Lehman filing date: 2008-09-15 — verified against SEC filing.
 - AIG emergency facility authorization: 2008-09-16, up to $85B — verified against Federal Reserve Board.
-- Chapter sequence (`2008-09-15` → `다음 날` AIG): consistent.
+- Chapter sequence (`2008-09-15` → `다음 날` AIG → `2008-10-31` whitepaper distribution): consistent.
 
 ## Pass 5 note
 
