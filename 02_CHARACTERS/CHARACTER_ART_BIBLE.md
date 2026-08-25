@@ -4,6 +4,8 @@
 
 초상화의 목표는 실제 사람처럼 보이는 얼굴을 만드는 것이 아니라, 독자가 소설 속 의인화 인물을 즉시 구별하고 본문의 성격과 연결할 수 있는 **정본 캐릭터 일러스트**를 만드는 것이다.
 
+실제 이미지 생성 단계에서는 [`FINAL_CHARACTER_ART_PRODUCTION.md`](./FINAL_CHARACTER_ART_PRODUCTION.md)의 공통 prompt, negative prompt, 캐릭터별 production prompt, 파일 교체 규칙을 함께 사용한다.
+
 ## 공통 화풍
 
 - 실사·사진·극사실주의를 사용하지 않는다.
