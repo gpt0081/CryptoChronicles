@@ -19,7 +19,7 @@
 | V2 | CH01 | pending | historian, blind-reader | 0 | 0 | `522b0d6cdb35f83c50de3ded379c50722d9ed592` |
 | V2 | CH02 | pending | continuity, character | 0 | 0 | `ef7f104850de945ac8de66f7e89ee6582bdd1616` |
 | V2 | CH03 | pending | novel-editor, red-team | 0 | 0 | `131d43c4c58d8a53cb01c2df30330f359ebe3b29` |
-| V2 | CH04 | pending | historian, continuity | 0 | 0 | `c496e2f0d2d2280391f17068bf698bcd5f12a658` |
+| V2 | CH04 | pending | historian, continuity | 0 | 0 | `249460184cb0bb34ccc02a4e26c2873ba3b98478` |
 | V2 | CH05 | pending | character, blind-reader | 0 | 0 | `65d0d54f7e219ebbed3315797f9ecbbc1f42ca6f` |
 | V2 | CH06 | pending | historian, novel-editor | 0 | 0 | `c124a68ed344c1abd4289ce9778038462974e7d3` |
 | V2 | CH07 | pending | continuity, red-team | 0 | 0 | `3b7dbabceaa143d121909a06622e4653742ef46d` |
