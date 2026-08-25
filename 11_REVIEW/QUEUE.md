@@ -30,7 +30,7 @@
 | V2 | CH12 | pending | historian, continuity | 0 | 0 | `4cd795d919e3f7af65f09c4c994e770aea1dbf64` |
 | V3 | CH01 | pending | historian, continuity | 0 | 0 | `fae007e6deb78e08d92e95d466204f88b410659f` |
 | V3 | CH02 | pending | character, blind-reader | 0 | 0 | `5e2fcc3f8b209ffcf4bdd861d034679a1b5c4692` |
-| V3 | CH03 | pending | historian, novel-editor | 0 | 0 | `881d3f925de931497a11971ff17a89883561185c` |
+| V3 | CH03 | pending | historian, novel-editor | 0 | 0 | `b6daf59a2d1dc89946985362f3a3fba27c0f9533` |
 | V3 | CH04 | pending | continuity, red-team | 0 | 0 | `47c678a437e2969e07cbef594378e46bc16249df` |
 | V3 | CH05 | pending | character, novel-editor | 0 | 0 | `9de0a02264ecb3e507c12fae2327afcd5b212caa` |
 | V3 | CH06 | pending | historian, blind-reader | 0 | 0 | `9e175f529f889335ec641b8582f54d6e013a23d9` |
