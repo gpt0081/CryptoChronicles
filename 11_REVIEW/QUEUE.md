@@ -15,7 +15,7 @@
 | V1 | CH09 | pending | historian, continuity | 0 | 0 | `2ed342eeaa75f861a3c291ace1ac04ab691396dc` |
 | V1 | CH10 | pending | character, blind-reader | 0 | 0 | `f7d18863ff120296d32540847937aea505e4d231` |
 | V1 | CH11 | pending | novel-editor, red-team | 0 | 0 | `ec8e2d08425102fb10c9b1ed3d08b49af4eb3e40` |
-| V1 | CH12 | pending | historian, continuity | 0 | 0 | `e8731d56e096d78ad12c59b1e761ade36dbd5d06` |
+| V1 | CH12 | pending | historian, continuity | 0 | 0 | `f821bc0b817726201d224fd029c1c250a3b56e53` |
 | V2 | CH01 | pending | historian, blind-reader | 0 | 0 | `522b0d6cdb35f83c50de3ded379c50722d9ed592` |
 | V2 | CH02 | pending | continuity, character | 0 | 0 | `d424777c46c9bef587d93fd709c1037f7e202bd5` |
 | V2 | CH03 | pending | novel-editor, red-team | 0 | 0 | `131d43c4c58d8a53cb01c2df30330f359ebe3b29` |
