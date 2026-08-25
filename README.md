@@ -14,9 +14,10 @@
 - 최종 Copyedit Audit: **48장 / Hard issue 0 / Soft warning 0**
 - Pass 5 독립 내용 검수 인프라: `11_REVIEW/`에 병합 완료
 - Fact Ledger 전권 커버리지 재대조: **완료** (`10_REVISION/PASS5_FACT_LEDGER_AUDIT.md`)
-- 핵심 캐릭터 dossier·portrait 링크 최종 대조: **완료** (`10_REVISION/PASS5_CAST_AUDIT.md`)
+- 핵심 캐릭터 dossier·portrait 링크 대조: **완료** (`10_REVISION/PASS5_CAST_AUDIT.md`)
+- 최종 캐릭터 아트: **교체 진행 필요** — 현재 6개 JPG는 legacy placeholder이며 `02_CHARACTERS/CHARACTER_ART_BIBLE.md` 기준의 캐릭터 일러스트로 교체해야 함
 
-현재 상태는 **publication candidate 이전의 narrative review 단계**다. 표면 교정과 전권 copyedit은 완료했지만, 역사·연속성·캐릭터·소설성·초독자·Red Team 관점의 Pass 5 검수가 아직 남아 있으므로 publication-ready로 선언하지 않는다.
+현재 상태는 **publication candidate 이전의 narrative review 단계**다. 표면 교정과 전권 copyedit은 완료했지만, 역사·연속성·캐릭터·소설성·초독자·Red Team 관점의 Pass 5 검수와 최종 캐릭터 아트 교체가 아직 남아 있으므로 publication-ready로 선언하지 않는다.
 
 ## 핵심 원칙
 
@@ -28,6 +29,7 @@
 - 최신 시기를 다루는 제4부는 법률·행정명령·최종규칙·제안규칙·계류 법안을 구분한다.
 - 외부 검수자는 원고를 직접 수정하지 않고 `11_REVIEW/`에 finding만 제출한다.
 - 실제 본문 수정은 검수 finding의 채택·기각 판단 뒤에만 수행한다.
+- 프로토콜/자산 초상화는 실사 인물화가 아니라 정본 캐릭터 일러스트로 제작하며 실제 창립자의 외모를 대체하지 않는다.
 
 ## 4부작 구성
 
@@ -57,5 +59,6 @@
 1. `11_REVIEW/QUEUE.md`의 48장 Pass 5 검수 완료
 2. 역사·연속성·캐릭터·소설성·초독자·Red Team finding 판정 및 필요한 수정 반영
 3. 수정 장의 앞뒤 장 회귀검수 완료
-4. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
-5. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
+4. `02_CHARACTERS/portraits/`의 6개 legacy placeholder를 `CHARACTER_ART_BIBLE.md` 기준의 최종 캐릭터 일러스트로 교체하고 갤러리 일관성 재감사
+5. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
+6. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
