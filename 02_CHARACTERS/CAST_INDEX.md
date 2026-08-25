@@ -30,31 +30,30 @@
 
 ## 초상화 갤러리
 
-> 시각 정본은 [`CHARACTER_ART_BIBLE`](./CHARACTER_ART_BIBLE.md)을 따른다. 아래 6개 기존 이미지는 새 캐릭터 일러스트로 교체되기 전까지 legacy placeholder다.
+> 시각 정본은 [`CHARACTER_ART_BIBLE`](./CHARACTER_ART_BIBLE.md)을 따른다. 아래 6개 SVG는 같은 4:5 벡터 캐릭터 체계로 제작된 정본 일러스트다.
 
 ### Bitcoin
-![Bitcoin Portrait](./portraits/bitcoin.jpg)
+![Bitcoin Character](./portraits/bitcoin.svg)
 
 ### Ethereum
-![Ethereum Portrait](./portraits/ethereum.jpg)
+![Ethereum Character](./portraits/ethereum.svg)
 
 ### XRP
-![XRP Portrait](./portraits/xrp.jpg)
+![XRP Character](./portraits/xrp.svg)
 
 ### Stablecoins
-![Stablecoins Portrait](./portraits/stablecoins.jpg)
+![Stablecoins Character](./portraits/stablecoins.svg)
 
 ### Solana
-![Solana Portrait](./portraits/solana.jpg)
+![Solana Character](./portraits/solana.svg)
 
 ### Chainlink
-![Chainlink Portrait](./portraits/chainlink.jpg)
+![Chainlink Character](./portraits/chainlink.svg)
 
 ### 초상화 범위 규칙
 - 정본 방향은 실사 초상화가 아니라 **그래픽노블/편집 일러스트 계열의 캐릭터 디자인**이다.
 - 캐릭터는 실제 창립자의 외모가 아니라 프로토콜·자산의 성격, 역할, 반복 모티프를 시각화한다.
 - 이름이나 로고 없이도 실루엣·복장·소품·공간 언어로 서로 구별되어야 한다.
-- 현재 갤러리의 6개 이미지는 최종 캐릭터 아트가 아니라 교체 대상 placeholder로 취급한다.
 - Satoshi Nakamoto는 신원·외모가 확인되지 않았으므로 정본 초상화를 만들지 않는다.
 - Hal Finney, Vitalik Buterin 등 실존 인물은 의인화 프로토콜 캐릭터 세트와 분리한다.
 - `신용`, `가격`, `국가`, `Institutions`, `Exchanges`는 특정 실존 인물의 얼굴로 고정하지 않는다. 필요하면 별도의 개념 캐릭터로 디자인한다.
