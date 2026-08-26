@@ -17,6 +17,7 @@
 - Fact Ledger 전권 커버리지 재대조: **완료** (`10_REVISION/PASS5_FACT_LEDGER_AUDIT.md`)
 - 핵심 캐릭터 dossier·portrait 링크 대조: **완료** (`10_REVISION/PASS5_CAST_AUDIT.md`)
 - 최종 캐릭터 아트: **완료** — Bitcoin, Ethereum, XRP, Stablecoins, Solana, Chainlink의 6개 legacy JPG를 비실사 4:5 SVG 캐릭터 일러스트로 교체하고 갤러리 링크·일관성 감사 완료 (`10_REVISION/PASS5_CHARACTER_ART_AUDIT.md`)
+- 브랜치 위생 감사: **미완성 작업 브랜치 0 / 열린 PR 0** — 남아 있는 `write/*`, `revise/*`, `review/*`, `art/*` ref는 병합된 과거 작업으로 분류 (`10_REVISION/PASS5_BRANCH_HYGIENE_AUDIT.md`)
 
 현재 상태는 **publication candidate 이전의 narrative review 단계**다. 표면 교정과 전권 copyedit, 내부 48장 사전감사, 핵심 캐릭터 아트 교체는 완료했지만, 역사·연속성·캐릭터·소설성·초독자·Red Team 관점의 독립 Pass 5 검수가 아직 남아 있으므로 publication-ready로 선언하지 않는다.
 
@@ -61,4 +62,4 @@
 2. 역사·연속성·캐릭터·소설성·초독자·Red Team finding 판정 및 필요한 수정 반영
 3. 수정 장의 앞뒤 장 회귀검수 완료
 4. 최종 전권 감사에서 미해결 hard issue 및 soft warning 0 확인
-5. 미완성 draft PR/작업 브랜치 정리 후 상태를 `publication-ready`로 변경
+5. 독립 검수 종료 시 열린/draft PR 및 새 미완성 작업 브랜치가 다시 생기지 않았는지 최종 재확인 후 상태를 `publication-ready`로 변경
