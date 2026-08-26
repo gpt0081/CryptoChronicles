@@ -15,19 +15,21 @@
 
 Queue의 현재 배정을 그대로 집계하면 다음과 같다.
 
-| Role | Assigned chapter reviews |
-|---|---:|
-| historian | 20 |
-| continuity | 20 |
-| character | 16 |
-| novel-editor | 16 |
-| blind-reader | 12 |
-| red-team | 12 |
-| **Total** | **96** |
+| Role | Assigned chapter reviews | Dispatch issue |
+|---|---:|---|
+| historian | 20 | #48 |
+| continuity | 20 | #49 |
+| character | 16 | #51 |
+| novel-editor | 16 | #52 |
+| blind-reader | 12 | #53 |
+| red-team | 12 | #54 |
+| **Total** | **96** | **96/96 dispatched** |
 
 ## 실행 순서
 
 ### Wave 1 — 역사 + 연속성
+
+실행 계약: historian issue #48, continuity issue #49.
 
 `historian`과 `continuity`가 자신에게 배정된 queue 행만 독립적으로 검수한다.
 
@@ -41,6 +43,8 @@ Queue의 현재 배정을 그대로 집계하면 다음과 같다.
 
 ### Wave 2 — 캐릭터 + 소설성
 
+실행 계약: character issue #51, novel-editor issue #52.
+
 `character`와 `novel-editor`가 자신에게 배정된 queue 행만 검수한다.
 
 목적:
@@ -51,6 +55,8 @@ Queue의 현재 배정을 그대로 집계하면 다음과 같다.
 - 반복되는 대사·모티프·캐릭터 기능 충돌
 
 ### Wave 3 — 초독자 + Red Team
+
+실행 계약: blind-reader issue #53, red-team issue #54.
 
 `blind-reader`는 설정·Fact Ledger·내부 precheck를 읽지 않고 해당 장과 필요 최소한의 인접 원고만 읽는다.
 
